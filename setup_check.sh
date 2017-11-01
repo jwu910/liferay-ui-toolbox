@@ -1,5 +1,15 @@
 #!/usr/bin/bash
 
+# Check OS -- placeholder
+case "$OSTYPE" in
+  solaris*) echo "SOLARIS" ;;
+  darwin*)  echo "OSX" ;;
+  linux*)   echo "LINUX" ;;
+  bsd*)     echo "BSD" ;;
+  msys*)    echo "WINDOWS" ;;
+  *)        echo "unknown: $OSTYPE" ;;
+esac
+
 #Check user's path for repository's scripts directory.
 if [[ ! ":$PATH:" == *":$(pwd)/scripts"* ]]; then
 	echo "======================================================================"
@@ -13,5 +23,3 @@ if [[ ! ":$PATH:" == *":$(pwd)/scripts"* ]]; then
 else
 	echo "PATH variable configured with scripts directory correctly."
 fi
-
-
