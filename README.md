@@ -12,3 +12,9 @@ Helpful collection of descriptive aliases, scripts, and shortcuts.
 #### [Liferay Tools](https://github.com/jwu910/liferay-ui-toolbox/blob/development/liferay-tools/)
 
 #### [Other Tools](https://github.com/jwu910/liferay-ui-toolbox/blob/development/other-tools/)
+
+### Getting started
+Check if your repository has been setup for optimal performance
+```
+$ sh setup_check.sh
+```
