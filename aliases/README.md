@@ -1,1 +1,42 @@
-Placeholder for Aliases
+# Aliases
+The files contained here can be added to your RC files using a variation of the import/include commands.
+We have set up each file to have each alias disabled by default. Unfortunately, this would require you to read through the file to decide what aliases you would like to enable. This is the best way not to interupt your workflow by accidentally overwriting any possible shared alias names.
+
+### Getting started
+#### Setting up your git config file
+1. Read through the `.gitconfig-luitk` file and decide which aliases you would like to enable.
+	- Aliases can be enabled by uncommenting the alias(removing the `#` preceeding the alias)
+	- Aliases with dependencies will be grouped and notes will indicate which aliases have another alias within
+2. Open your global git config with the following command:
+```
+$ git config --global -e
+```
+3. Paste the following line in your global git config file.
+```
+[include]
+	path = 'PATH/TO/REPOSITORY/aliases/.gitconfig-luitk'
+```
+	- PATH/TO/REPOSITORY should be directory in which this repo was cloned
+4. You should now have access to the git commands provided by the `.gitconfig-luitk` file.
+5. To use the commands, simply run:
+```
+$ git <name of alias> [optional arguments]
+```
+```
+// Example:
+
+$ git gud
+
+//            /$$   /$$                                     /$$
+//           |__/  | $$                                    | $$
+//   /$$$$$$  /$$ /$$$$$$          /$$$$$$  /$$   /$$  /$$$$$$$
+//  /$$__  $$| $$|_  $$_/         /$$__  $$| $$  | $$ /$$__  $$
+// | $$  \ $$| $$  | $$          | $$  \ $$| $$  | $$| $$  | $$
+// | $$  | $$| $$  | $$ /$$      | $$  | $$| $$  | $$| $$  | $$
+// |  $$$$$$$| $$  |  $$$$/      |  $$$$$$$|  $$$$$$/|  $$$$$$$
+//  \____  $$|__/   \___/         \____  $$ \______/  \_______/
+//  /$$  \ $$                     /$$  \ $$                    
+// |  $$$$$$/                    |  $$$$$$/                    
+//  \______/                      \______/                     
+
+```
