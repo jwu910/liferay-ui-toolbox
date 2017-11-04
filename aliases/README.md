@@ -1,11 +1,12 @@
 # Aliases
 The files contained here can be added to your RC files using a variation of the import/include commands.
-We have set up each file to have each alias disabled by default. Unfortunately, this would require you to read through the file to decide what aliases you would like to enable. This is the best way not to interupt your workflow by accidentally overwriting any possible shared alias names.
+We have set up each file to have each alias disabled by default. This means you are required to read through the file and decide what aliases you would like to enable. This is the best way not to interupt your workflow by accidentally overwriting any possible shared alias names.
 
 ### Getting started
 #### Setting up your git config file
 1. Read through the `.gitconfig-luitk` file and decide which aliases you would like to enable.
 	- Aliases can be enabled by uncommenting the alias(removing the `#` preceeding the alias)
+		- Be sure not to uncomment the actual comments left to help explain what the alias does
 	- Aliases with dependencies will be grouped and notes will indicate which aliases have another alias within
 2. Open your global git config with the following command:
 ```
