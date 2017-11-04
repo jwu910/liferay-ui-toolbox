@@ -22,21 +22,13 @@ $ git config --global -e
 ```
 $ git <name of alias> [optional arguments]
 ```
+
+One alias provided by liferay's git-tools is an alias to create a branch. The command `git checkout -b` has been shortened to simply `git cb <branch-name>`
 ```
 // Example:
 
-$ git gud
+$ git cb your-new-branch
 
-//            /$$   /$$                                     /$$
-//           |__/  | $$                                    | $$
-//   /$$$$$$  /$$ /$$$$$$          /$$$$$$  /$$   /$$  /$$$$$$$
-//  /$$__  $$| $$|_  $$_/         /$$__  $$| $$  | $$ /$$__  $$
-// | $$  \ $$| $$  | $$          | $$  \ $$| $$  | $$| $$  | $$
-// | $$  | $$| $$  | $$ /$$      | $$  | $$| $$  | $$| $$  | $$
-// |  $$$$$$$| $$  |  $$$$/      |  $$$$$$$|  $$$$$$/|  $$$$$$$
-//  \____  $$|__/   \___/         \____  $$ \______/  \_______/
-//  /$$  \ $$                     /$$  \ $$                    
-// |  $$$$$$/                    |  $$$$$$/                    
-//  \______/                      \______/                     
+// Created new branch your-new-branch
 
 ```
