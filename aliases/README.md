@@ -15,9 +15,11 @@ $ git config --global -e
 3. Paste the following line in your global git config file.
 ```
 [include]
-	path = 'PATH/TO/REPOSITORY/aliases/.gitconfig-luitk'
+	path = 'PATH/TO/REPOSITORY/aliases/.gitconfig-luitb'
 ```
+
 	- PATH/TO/REPOSITORY should be directory in which this repo was cloned
+
 4. You should now have access to the git commands provided by the `.gitconfig-luitk` file.
 5. To use the commands, simply run:
 ```
@@ -25,9 +27,9 @@ $ git <name of alias> [optional arguments]
 ```
 
 One alias provided by liferay's git-tools is an alias to create a branch. The command `git checkout -b` has been shortened to simply `git cb <branch-name>`
-```
-// Example:
 
+Example:
+```
 $ git cb your-new-branch
 
 // Created new branch your-new-branch
