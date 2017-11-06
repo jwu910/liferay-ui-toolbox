@@ -1,9 +1,9 @@
-Contributing to the Liferay UI Toolkit
+Contributing to the Liferay UI Toolbox
 ======================================
 
 :star: :raised_hands: Thanks for taking the time to read our contribution guidelines! We need developers like you who you care about the details. :raised_hands: :star:
 
-The following are a few simple things we ask as you create issues and/or send pull requests that will go a long way in helping us improve the Liferay UI Toolkit.
+The following are a few simple things we ask as you create issues and/or send pull requests that will go a long way in helping us improve the Liferay UI toolbox.
 
 ###Provide relevant information.
 
@@ -20,4 +20,4 @@ The following are a few simple things we ask as you create issues and/or send pu
  - Please use comments to give further detail on what the added code accomplishes, how it's beneficial, or how it fixes an issue.
 
 ###Share what you know.
-- Perhaps you've just discovered this toolkit and you're reading these contribution guidelines out of curiosity. If so, we want to encourage you now to give back in the future--many of the helpful things in this toolkit were shared by others at Liferay with us and they have made us better developers for it. If these tools help you along your development path then consider helping the next person that will come upon this repository. If you find or create something useful, send it along to us so we can at it to the toolkit!
+- Perhaps you've just discovered this toolbox and you're reading these contribution guidelines out of curiosity. If so, we want to encourage you now to give back in the future--many of the helpful things in this toolbox were shared by others at Liferay with us and they have made us better developers for it. If these tools help you along your development path then consider helping the next person that will come upon this repository. If you find or create something useful, send it along to us so we can at it to the toolbox!
