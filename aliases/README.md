@@ -4,7 +4,7 @@ We have set up each file to have each alias disabled by default. This means you 
 
 ### Getting started
 #### Setting up your git config file
-1. Read through the `.gitconfig-luitk` file and decide which aliases you would like to enable.
+1. Read through the `.gitconfig-luitb` file and decide which aliases you would like to enable.
 	- Aliases can be enabled by uncommenting the alias(removing the `#` preceeding the alias)
 		- Be sure not to uncomment the actual comments left to help explain what the alias does
 	- Aliases with dependencies will be grouped and notes will indicate which aliases have another alias within
