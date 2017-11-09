@@ -12,14 +12,11 @@ We have set up each file to have each alias disabled by default. This means you 
 ```
 $ git config --global -e
 ```
-3. Paste the following line in your global git config file.
+3. Paste the following line in your global git config file. Note: PATH/TO/REPOSITORY should be directory in which this repo was cloned
 ```
 [include]
 	path = 'PATH/TO/REPOSITORY/aliases/.gitconfig-luitb'
 ```
-
-	- PATH/TO/REPOSITORY should be directory in which this repo was cloned
-
 4. You should now have access to the git commands provided by the `.gitconfig-luitk` file.
 5. To use the commands, simply run:
 ```
