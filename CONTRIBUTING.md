@@ -6,7 +6,7 @@ Contributing to the Liferay UI Toolbox
 The following are a few simple things we ask as you create issues and/or send pull requests that will go a long way in helping us improve the Liferay UI toolbox.
 
 ###Provide relevant information.
-
+ - File an issue.
  - If your issue is alias/script related include your OS, the shell/terminal you're using, and (if relevant) node.js/npm version.
  - Include the steps you took that caused you to encounter the issue.
  - What do you expect the outcome to be?
