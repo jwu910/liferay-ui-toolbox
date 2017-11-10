@@ -12,10 +12,11 @@ The following are a few simple things we ask as you create issues and/or send pu
  - What do you expect the outcome to be?
 
 ###Be clear and descriptive.
-
+ - Commit messages should be prefixed with LUITB and the issue number.
+ 	 - example: `git commit -m "LUITB-123 Correct incorrect information` 
  - Commit messages should describe with *some* detail what you've added, change, and/or fixed. 
-	 - **bad** example: `git commit -m "Fixes script"`
-	 - **good** example: `git commit -m "Includes missing '$HOME' variable in theme-deploy script"`
+	 - **bad** example: `git commit -m "LUITB-1252 Fixes script"`
+	 - **good** example: `git commit -m "LUITB-1214 Includes missing '$HOME' variable in theme-deploy script"`
  - Commit messages should be in the present tense (as shown above).
  - Please use comments to give further detail on what the added code accomplishes, how it's beneficial, or how it fixes an issue.
 
